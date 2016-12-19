@@ -6,14 +6,14 @@
 
 # Использование
 ## Подключение по средствам классов
-Подключаем Drugmenu
+Подключаем Dragmenu
 ```html
 <head>
 	<!-- Стили Bootstrap -->
 	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.min.css">
 	
-	<!-- Стили Drugmenu -->
+	<!-- Стили Dragmenu -->
 	<link rel="stylesheet" href="/dragmenu/css/dragmenu.css">
 	
 	<!-- jQuery -->
@@ -21,7 +21,7 @@
 	<!-- Bootstrap -->
 	<script src="/bootstrap/js/bootstrap.js"></script>
 	
-	<!-- Скрипт Drugmenu -->
+	<!-- Скрипт Dragmenu -->
 	<script src="/dragmenu/js/dragmenu.js"></script>
 </head>
 ```
@@ -51,7 +51,7 @@
 ```
 ## Подключение по средствам jQuery
 ```js
-$('#my-drugmenu').drugmenu()
+$('#my-dragmenu').dragmenu()
 ```
 # Классы
 dragmenu-close — сприятать меню
